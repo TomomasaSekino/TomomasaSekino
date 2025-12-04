@@ -30,7 +30,7 @@ PowerVM（LPAR / dLPAR / LPM）、HA、SAN、バックアップ、監視を横�
 
 ### ■ OS
 - AIX / Linux（RHEL / SLES） / Windows Server  
-- HP-UX / Solaris（経験）
+- HP-UX / Solaris
 
 ### ■ 仮想化・HA
 - PowerVM（LPAR / dLPAR / LPM）  
