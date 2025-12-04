@@ -33,18 +33,17 @@ PowerVM（LPAR / dLPAR / LPM）、HA、SAN、バックアップ、監視を横�
 - HP-UX / Solaris
 
 ### ■ 仮想化・HA
-- PowerVM（LPAR / dLPAR / LPM）  
-- VIOS / IVM  
+- PowerVM（LPAR / dLPAR / LPM）   
 - PowerHA（HACMP）
 
 ### ■ ストレージ / SAN
-- Storage 仮想化  
-- SAN zoning / MDS / FCIP  
-- LUN 設計・運用
+- Storage 仮想化基盤構築・運用
+- SAN設計（Zoning / LUN）
+- Cisco MDS / FCIP 設計構築
 
 ### ■ 監視 / バックアップ
 - IBM Netcool / ITM  
-- TSM（バックアップサーバ構築含む）
+- TSM（ISP）サーバ構築
 
 ### ■ 自動化・スクリプト
 - ksh / Bash / PowerShell  
@@ -55,27 +54,54 @@ PowerVM（LPAR / dLPAR / LPM）、HA、SAN、バックアップ、監視を横�
 ## 🔧 主なプロジェクト（Projects）
 
 ### 🔹 AIX 基盤更改プロジェクトにおける設計・構築
-AIX バージョンアップ、更改、HWリプレイスに伴い  
-仮想化基盤（LPAR / VIOS / SAN / Backup）を総合的に設計・構築。
+AIX バージョンアップ、更改、HWリプレイスに伴い
+仮想化基盤（LPAR / PowerVM / SAN / Backup）を総合的に設計・構築。
+- LPAR 設計・リソース配分
+- PowerVM 構成
+- SAN / Storage / Backup 連携設計
+- 更改・移行手順書の作成
 
 ### 🔹 DR環境構築と切替手順の標準化（スクリプト作成含む）
-DRサイト構築における切替設計、マニュアル化、スクリプト化を担当。
+DRサイト構築における DR 構成設計、切替手順マニュアル化、
+スクリプトによる作業の確実性向上を担当。
+- DRサイト側 AIX / Storage 設計
+- フェイルオーバー／フェイルバック手順の標準化
+- コマンド実行スクリプトの作成
+- DRリハーサル対応
 
 ### 🔹 Storage 仮想化環境の構築・運用
-ストレージ仮想化基盤設計・構築、性能管理、SAN設計。
+ストレージ仮想化基盤の設計・構築・運用を担当。
+- 仮想ストレージプール構成
+- SAN zoning / FCポート設計
+- 性能分析・キャパシティ管理
+- 運用改善提案
 
 ### 🔹 SAP 基盤の運用保守
 ノート適用・パッチ適用・リビジョンアップ・移送等の基盤ベイシス作業。
 大規模業務系システムの安定運用・更改支援。
+- SAP連携サーバの運用・障害対応
+- パフォーマンス調査
+- 監視・バックアップとの連携調整
 
 ### 🔹 Cisco MDS による FCIP 設計構築
-DR用途の FCIP リンクを設計・構築。
+DR用途の SAN 延伸のため、Cisco MDS / FCIP を用いた
+拠点間ストレージ接続の設計・構築を担当。
+- FCIPリンク設計（帯域・RTT 等の考慮）
+- MDS 設定・動作検証
+- DR要件を満たすスループット確認
 
 ### 🔹 Subversion サーバ構築
-Apache + SVN によるリポジトリ環境を構築し、アクセス制御・バックアップを整備。
+アプリ開発チーム向けの Subversion リポジトリサーバを構築。
+- Apache + SVN リポジトリ構築
+- 認証／権限設定／データ移行
+- バックアップ・リカバリ手順策定
 
 ### 🔹 Systemwalker → Hinemos ジョブ移行
-ジョブフロー棚卸し、ジョブ再構築、テスト、運用統合などを実施。
+既存の Systemwalker ジョブ群を Hinemos へ移行。
+- ジョブ依存関係の棚卸し
+- Hinemos ジョブ定義の再設計
+- テスト計画・実施
+- 監視・運用フローへの統合
 
 ---
 
