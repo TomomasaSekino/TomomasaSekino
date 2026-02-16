@@ -41,7 +41,7 @@ AWS・自動化・IaC・コンテナの習得を継続し、移行・更改・�
 
 ---
 
-## Portfolio（ここを増やしていく）
+## Portfolio
 - （準備中）TerraformでAWS上にブログ基盤を構築（S3+CloudFront / もしくは ECS+RDS）
 - （準備中）コンテナ基礎：Dockerfile / CI / デプロイ例
 
