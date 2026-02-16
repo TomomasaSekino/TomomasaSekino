@@ -47,6 +47,6 @@ AWS・自動化・IaC・コンテナの習得を継続し、移行・更改・�
 
 ---
 
-## Contact
-- GitHub: https://github.com/TomomasaSekino
+## 📫 Contact  
+- GitHub: https://github.com/TomomasaSekino  
 
