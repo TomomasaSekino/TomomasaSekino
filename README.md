@@ -1,4 +1,4 @@
-# Hi, I'm Tomomasa Sekino 👋
+# Hi, I'm Tomomasa Sekino 👋 Designing reproducible cloud infrastructure with enterprise background.
 
 ## 🚀 Cloud & Infrastructure Engineer
 
