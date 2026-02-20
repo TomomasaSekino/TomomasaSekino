@@ -16,17 +16,27 @@
 
 ---
 
-## 🔥 Featured Projects
+## ⭐ Featured (Pinned) Repositories
 
-### 🛠 Serverless WordPress on AWS  
-ECS Fargate + ALB + Aurora Serverless v2 をTerraformで構築  
-👉 https://github.com/TomomasaSekino/aws-serverless-wordpress
+- **Serverless WordPress on AWS (Terraform)**  
+  ECS Fargate + ALB + Aurora Serverless v2 で WordPress を動作させるIaCサンプル  
+  → https://github.com/TomomasaSekino/aws-serverless-wordpress
 
-### 🧱 AWS Terraform Foundation  
-再利用可能なAWS基盤コードテンプレート
+- **AWS Terraform Foundation**  
+  再利用可能なTerraformモジュール/環境分離のベース  
+  → https://github.com/TomomasaSekino/aws-terraform-foundation
 
-### 📦 Hybrid On-Prem → Cloud Strategy  
-AIX / PowerVM 環境を対象としたクラウド移行設計
+- **Hybrid Architecture: AIX to AWS**  
+  IBM PowerVM / AIX 環境のAWS移行・ハイブリッド設計の設計書リポジトリ  
+  → https://github.com/TomomasaSekino/hybrid-architecture-aix-to-aws
+
+---
+
+## ⭐ Featured Projects
+
+- Terraform AWS WordPress (ECS Fargate + Aurora Serverless v2): https://github.com/TomomasaSekino/aws-serverless-wordpress  
+- Terraform Foundation (reusable modules): https://github.com/TomomasaSekino/aws-terraform-foundation  
+- Hybrid Design (AIX / PowerVM → AWS): https://github.com/TomomasaSekino/hybrid-architecture-aix-to-aws  
 
 ---
 
