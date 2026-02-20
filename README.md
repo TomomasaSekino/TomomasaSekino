@@ -1,52 +1,69 @@
-# Tomomasa Sekino（関野 智勝） — Infrastructure / Cloud Engineer
+# Hi, I'm Tomomasa Sekino 👋
 
-AIX / UNIX を中心に **20年以上**、エンタープライズ向けインフラの設計・構築・運用・更改に従事。  
-PowerVM（LPAR / dLPAR / LPM）、HA、SAN、バックアップ、監視を横断して **ミッションクリティカルを安定稼働**させてきました。
+## 🚀 Cloud & Infrastructure Engineer
 
-現在は「オンプレの深い基盤知識」×「AWS / IaC / コンテナ」で、**モダナイズと運用最適化**に強いエンジニアを目指しています。
-
-- ✅ AWS Certified Solutions Architect – Associate（SAA-C03）取得（2026/02）
-- 🧩 強み：設計思想を言語化し、手順・運用まで落とし込めること
+オンプレミス（AIX / PowerVM / LPAR）で20年以上のインフラ経験を持ち、  
+現在は AWS / Terraform / コンテナ基盤を活用したモダンなインフラ設計に取り組んでいます。
 
 ---
 
-## 強み
-### 1) AIX / PowerVM の深い専門性
-仮想化・HA・SAN・Backup・Monitoring を含む基盤全体を、設計〜運用まで一貫して担当。
+## 📌 Current Focus
 
-### 2) 大規模基幹（SAP等）/ ミッションクリティカル運用
-堅牢性・正確性・運用成熟度を理解し、安定運用を実現。
-
-### 3) レガシー × モダンの橋渡し
-AWS・自動化・IaC・コンテナの習得を継続し、移行・更改・運用改善に強み。
+**✔ AWS Infrastructure Design**  
+**✔ Terraform (IaC)**  
+**✔ Containers (ECS / Fargate)**  
+**✔ Hybrid Architecture (On-Prem → Cloud)**
 
 ---
 
-## スキル
-- OS：AIX / Linux（RHEL / SLES）/ Windows Server（HP-UX / Solaris経験）
-- 仮想化/HA：PowerVM（LPAR / dLPAR / LPM）, PowerHA（HACMP）
-- Storage/SAN：ストレージ仮想化、Zoning/LUN設計、Cisco MDS/FCIP
-- 監視/バックアップ：IBM Netcool / ITM、TSM
-- 自動化：ksh/Bash/PowerShell、Ansible
-- Cloud/IaC（学習・検証）：AWS、Terraform、コンテナ
+## 🔥 Featured Projects
+
+### 🛠 Serverless WordPress on AWS  
+ECS Fargate + ALB + Aurora Serverless v2 をTerraformで構築  
+👉 https://github.com/TomomasaSekino/aws-serverless-wordpress
+
+### 🧱 AWS Terraform Foundation  
+再利用可能なAWS基盤コードテンプレート
+
+### 📦 Hybrid On-Prem → Cloud Strategy  
+AIX / PowerVM 環境を対象としたクラウド移行設計
 
 ---
 
-## 代表プロジェクト（抜粋）
-- AIX基盤更改：OS更新・HW更改に伴う仮想化基盤（LPAR/PowerVM/SAN/Backup）設計・構築
-- DR設計/手順標準化：切替手順の整備、スクリプト化、リハーサル対応
-- Storage仮想化：性能分析、キャパ管理、運用改善
-- FCIP設計構築：DR用途の拠点間SAN延伸（Cisco MDS）
-- Systemwalker → Hinemos：ジョブ棚卸し、再設計、移行・テスト
+## 🧠 Skills
+
+### Cloud & DevOps
+- AWS (VPC, ECS, ALB, RDS/Aurora, IAM)
+- Terraform (モジュール化・環境分離)
+- Docker / ECS Fargate
+- CI / CD concepts
+
+### Infrastructure
+- AIX / UNIX 基盤設計・運用
+- PowerVM / LPAR / VIOS
+- Storage (SAN, Backup)
+- High Availability / Monitoring
+
+### Languages / Tools
+- ksh / Bash / PowerShell
+- Ansible
+- Git, GitHub
 
 ---
 
-## Portfolio
-- （準備中）TerraformでAWS上にブログ基盤を構築（S3+CloudFront / もしくは ECS+RDS）
-- （準備中）コンテナ基礎：Dockerfile / CI / デプロイ例
+## 📈 Learning
+
+進行中:
+
+- CloudFront + WAF
+- Secrets Manager for IaC
+- Logs & Monitoring Optimization
+- Automated Documentation (ChatGPT API)
 
 ---
 
-## 📫 Contact  
-- GitHub: https://github.com/TomomasaSekino  
+## 📫 Contact
 
+- GitHub: https://github.com/TomomasaSekino
+- Twitter: 
+- Portfolio / Blog: 
