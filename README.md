@@ -9,10 +9,6 @@
 # Hi there 👋 I'm Tomomasa Sekino
 **Infrastructure Engineer / Tech Lead (Individual Contributor)**
 
-# Hi there 👋 I'm Tomomasa Sekino
-
-**Infrastructure Engineer / Tech Lead (Individual Contributor)**
-
 With over 20 years of hands-on experience in designing, building, and operating mission-critical, large-scale on-premises environments (expert in IBM AIX), I am an infrastructure engineer dedicated to driving legacy system modernization and Digital Transformation (DX). 
 
 Rather than stepping away from technology into pure people management, I thrive as a lifelong **Individual Contributor (IC) and Tech Lead**. I solve complex technical challenges by actively writing code, automating operations through SRE approaches, and integrating modern cloud technologies (AWS, IaC, and Containers).
