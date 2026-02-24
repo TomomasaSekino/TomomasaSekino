@@ -1,6 +1,113 @@
+<div align="right">
+  <a href="#english-version">🇺🇸 English</a> | <a href="#japanese-version">🇯🇵 日本語</a>
+</div>
+
+---
+
+<h2 id="english-version">🇺🇸 English Version</h2>
+
+# Hi there 👋 I'm Tomomasa Sekino
+**Infrastructure Engineer / Tech Lead (Individual Contributor)**
+
 # Hi there 👋 I'm Tomomasa Sekino
 
 **Infrastructure Engineer / Tech Lead (Individual Contributor)**
+
+With over 20 years of hands-on experience in designing, building, and operating mission-critical, large-scale on-premises environments (expert in IBM AIX), I am an infrastructure engineer dedicated to driving legacy system modernization and Digital Transformation (DX). 
+
+Rather than stepping away from technology into pure people management, I thrive as a lifelong **Individual Contributor (IC) and Tech Lead**. I solve complex technical challenges by actively writing code, automating operations through SRE approaches, and integrating modern cloud technologies (AWS, IaC, and Containers).
+
+---
+
+## 📌 Current Focus
+
+I am currently focusing on building modern cloud infrastructure and Infrastructure as Code (IaC), continuously updating my skill set:
+
+- **✔ AWS Infrastructure Design**
+- **✔ Terraform (IaC / Modularity / Environment Isolation)**
+- **✔ Containers (Docker / ECS Fargate)**
+- **✔ Hybrid Architecture (Bridging On-Premises and Cloud)**
+
+---
+
+## ⭐ Featured Repositories
+
+Personal projects and PoCs focusing on IaC and Hybrid Architecture:
+
+- **[Serverless WordPress on AWS (Terraform)](https://github.com/TomomasaSekino/aws-serverless-wordpress)**
+  IaC sample deploying WordPress using ECS Fargate, ALB, and Aurora Serverless v2.
+- **[AWS Terraform Foundation](https://github.com/TomomasaSekino/aws-terraform-foundation)**
+  A foundational architecture with reusable Terraform modules and environment separation.
+- **[Hybrid Architecture: AIX to AWS](https://github.com/TomomasaSekino/hybrid-architecture-aix-to-aws)**
+  Design documentation and blueprints for migrating IBM PowerVM / AIX environments to AWS, focusing on hybrid networking.
+
+---
+
+## 🚀 Featured Achievements
+
+### 1. Legacy Migration Automation & Modernization
+Spearheaded the migration from a legacy commercial job management tool (SystemWalker) to Hinemos. I developed custom string-replacement and data-migration scripts from scratch, successfully automating the migration of 200 batch jobs and a Subversion environment (40 repositories, 100 users). 
+**Result:** Reduced manual migration effort by approximately **6 man-months** and achieved **zero operational errors/incidents** during the cutover.
+
+### 2. SRE Implementation & Toil Elimination in SAP Core Systems
+Managed infrastructure operations for mission-critical SAP systems running on ~50 SLES12 VMs. I led the optimization of monitoring systems (Netcool) and transitioned the management of ~100 operational scripts to GitHub.
+**Result:** **Reduced false-positive alerts by 98% (saving ~12 hours of manual troubleshooting per month)**, standardized operations, and completely eliminated toil and team silos.
+
+### 3. Mission-Critical DR (Disaster Recovery) FCIP Infrastructure Build
+To strengthen Business Continuity Planning (BCP), I led the detailed design, build, and testing of a large-scale DR network spanning 2 data centers using 29 FCIP routing devices.
+**Result:** Successfully delivered the robust infrastructure on schedule over a 13-month project. Cleared stringent high-traffic stability tests, ensuring seamless data protection with zero major rollbacks during deployment.
+
+---
+
+## 🛠 Core Skills & Technologies
+
+### Cloud & DevOps
+- **Cloud**: AWS (VPC, ECS, ALB, RDS/Aurora, IAM)
+- **IaC & Automation**: Terraform, Ansible (YAML)
+- **Containers & CI/CD**: Docker, ECS Fargate, CI/CD concepts
+
+### Automation, SRE & Tools
+- **Scripting**: Shell Scripting (ksh / Bash), Python, PowerShell
+- **Monitoring & Job Management**: Hinemos, Netcool
+- **Version Control**: Git, GitHub (IaC / Script Management)
+
+### Enterprise Infrastructure & OS
+- **OS**: IBM AIX (pSeries, LPAR, PowerHA), SUSE Linux Enterprise Server (SLES), Windows Server
+- **Virtualization**: PowerVM / VIOS
+- **Enterprise Systems**: SAP Infrastructure, DR (Disaster Recovery) Architecture
+
+### Storage, Backup & Network
+- **Storage & SAN**: SAN (FC / FCIP), IBM Storage
+- **Backup / DR**: TSM (Tivoli Storage Manager), Veeam, Zerto
+- **Network**: Cisco Routing & Switching, TCP/IP
+
+---
+
+## 🏆 Certifications & 📈 Learning
+
+**[ Certifications ]**
+- AWS Certified Solutions Architect - Associate (SAA-C03)
+- Cisco Certified Network Associate (CCNA)
+
+**[ Currently Learning & Exploring ]**
+- Advanced Security: CloudFront + WAF
+- Secrets Management for IaC (AWS Secrets Manager)
+- Logs & Monitoring Optimization
+- Automated Documentation (via ChatGPT API)
+
+---
+
+## 📫 Contact
+
+- **GitHub**: [@TomomasaSekino](https://github.com/TomomasaSekino)
+
+---
+<br> ---
+
+<h2 id="japanese-version">🇯🇵 日本語版</h2>
+
+# こんにちは 👋 関野 智勝です
+**インフラエンジニア / テックリード（プレイングマネージャー・IC）**
 
 20年以上にわたるミッションクリティカルな大規模オンプレミス環境（AIX等）の設計・構築・運用経験を土台に、レガシーシステムのモダナイゼーションとDX推進を牽引するインフラエンジニアです。
 マネジメント専任ではなく、自ら手を動かして技術的な課題を解決する「生涯現役のスペシャリスト（IC）」として、SRE的アプローチによる運用自動化やクラウド技術（AWS / IaC / コンテナ）の導入に取り組んでいます。
