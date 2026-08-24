@@ -3,22 +3,26 @@
 **Enterprise Infrastructure Engineer**  
 **AIX / PowerVM / SAN / HA・DR / SAP / Hybrid Cloud / Legacy Modernization**
 
-IBM AIX / SAN を中心に、20年以上にわたりエンタープライズ基盤の設計・構築・移行・運用改善に携わってきました。  
-AIX / PowerVM / SAN / PowerHA などのオンプレミス基盤を中核に、SAP基盤、DR、仮想化、AWS、Terraformまでを対象として、既存基幹システムを理解した上での **基盤更改・移行・モダナイゼーション** を専門領域としています。
+AIX / Linux / SAN / HA / DR を中心としたエンタープライズ基盤の設計・構築・運用・改善を20年以上担当してきました。
+
+AIX / PowerVM を中心としたオンプレミス基盤から、SAP基盤、DR、仮想化、AWSを含むハイブリッド環境まで、既存システムの構成・運用を理解したうえでの **基盤更改・移行・モダナイゼーション** を主な専門領域としています。
 
 主な実績：
 
-- **最大200LPAR規模** のAIX基盤を設計・構築
-- SAP基盤の監視運用を見直し、**誤検知アラートを約98%削減**
-- Subversion更改で移行スクリプトを作成し、**約6人月相当の作業を削減**
+- **最大200LPAR規模** のAIX基盤構築と技術リード
+- SLES / vSphere 上の **SAP基幹システム43サーバー** の運用保守・改善
+- **Cisco MDS FCIP** を用いた広域DR基盤の詳細設計・構築・検証
 
 ---
 
 ## 専門領域
 
-### レガシー基幹システム更改・基盤移行・モダナイゼーション
+### レガシー基幹システム更改・基盤移行
 
-長期間稼働してきた基幹システムについて、既存構成・運用・依存関係を把握した上で、基盤更改、クラウド移行、ハイブリッド構成への移行を設計・支援します。
+- AIX / Linux を中心とした基幹インフラ更改
+- オンプレミスからクラウドを含むハイブリッド基盤への移行
+- 既存構成・運用・依存関係を踏まえた移行設計と導入支援
+- 導入手順、確認観点、差分管理の標準化
 
 ### AIX / Power Infrastructure
 
@@ -29,64 +33,92 @@ AIX / PowerVM / SAN / PowerHA などのオンプレミス基盤を中核に、SA
 - PowerHA
 - NIM
 - SAN / Storage
-- HA / DR設計
+- HA / DR
 
 ### SAP Infrastructure
 
-SLES / vSphere 上のSAP基幹システムで5年以上のインフラ運用保守経験があります。
-
 - SAP Basis運用
-- CCMS
-- tp移送
-- SPS適用
-- HANA 2.0 バージョンアップ
-- SAP基盤V2V移行支援
+- SLES / vSphere
+- SAP HANA 2.0
+- SPS / note適用
+- V2V移行支援
+- Ansible Tower / JP1を用いた運用自動化
 
-### 運用改善・SRE・標準化・自動化
+### 運用改善・SRE・自動化
 
-- 障害の根本原因分析・恒久対策
+- 障害の根本原因分析と恒久対策
 - 監視設定改善
-- DR手順標準化
-- Git / GitHubによる構成管理
+- DR切替手順標準化
+- バックアップ復旧検証
 - Shell / PowerShell / Pythonによる自動化
-- Terraform / AnsibleによるInfrastructure as Code
+- Git / GitHubによる構成管理
+- TerraformによるInfrastructure as Code
 
 ---
 
-## 主要実績
+## 代表実績
 
-### ガバメントクラウド更改案件（2026年）
+### 自治体ガバメントクラウド更改・導入品質改善
 
-NutanixとAWSを含むハイブリッド環境の更改案件において導入品質を担当。  
-バッチ突合による構成差異の検出・是正、手順・確認観点・差分管理の標準化に取り組みました。
+AWS本番環境、Nutanix検証・交替機環境、オンプレミスが混在するハイブリッド構成で導入品質を担当。
 
-### SAP基盤運用改善 / SRE（2018〜2023年）
+- 手順書の分岐不足、資材世代差、OS・Edge差異、資材コピー不全などを検出
+- **12種類のバッチ突合とサム値確認**により構成差異を抽出・是正
+- 問題発生時の切り分けと追加回避策を提案
+- 手順分岐、確認観点、差分管理を標準化
+- 担当範囲の導入作業を約3週間で完遂
 
-SAP基幹システムのインフラ運用保守において、監視運用の抜本的見直しを提案・実施。
+### SAP基幹システム基盤
 
-- IBM Netcoolの監視設定を見直し、**誤検知アラートを約98%削減**
-- 繰り返し障害の根本原因分析と恒久対策
-- DR切替手順の標準化と定期検証
-- 運用スクリプトのGitHub管理を提案・導入
+SLES / vSphere上のSAP基幹システム **43サーバー** のインフラ運用保守を担当。
 
-### ジョブスケジューラー / Subversion更改（2025年）
+- HANA 2.0バージョンアップ、SPS・note適用
+- vMotion / Veeam / ZertoによるV2V移行の既存基盤側支援
+- Ansible Tower / ASI / JP1による運用自動化
+- 再発障害の根本原因分析と恒久対策
+- Netcool等の監視設定改善
+- DR切替手順の標準化・定期検証
+- バックアップ復旧検証の強化
+- 運用スクリプトのGitHub管理
 
-SystemWalker → Hinemos のジョブ移行において、移行方針策定、置換スクリプト設計、バッチ修正、テストまでを担当。  
-同時期のSubversionサーバー更改では移行スクリプトを作成し、**約6人月相当の作業を削減**、ゼロ障害で本番移行しました。
+### Cisco MDS FCIP DR基盤
 
-### Cisco MDS FCIP 広域DR基盤（2023〜2024年）
+Cisco MDSを使用したFCIP接続インフラの詳細設計・構築・テストを担当。
 
-Cisco MDSを用いたFCIP接続インフラの詳細設計・構築・テストを担当。  
-SAN、通信要件、拠点別構築手順、高トラフィック時の帯域・遅延を含む安定性検証まで実施しました。
+- パラメータシート、ポート収容表、物理構成図、通信要件の作成
+- 拠点別構築手順・タイムチャート・チェックリスト作成
+- 単体・結合テスト
+- 高トラフィック時の帯域・遅延を含む安定性検証
+- DR切替時の影響範囲を設計へ反映
 
-### 大規模AIX基盤（2014〜2015年）
+### AIX 大規模LPAR基盤
 
-IBM Power Systems上で、p740 / p750を用いた **最大200LPAR規模** のAIX基盤を設計・構築。  
-SAN / Storage、バックアップデータ外部保管設計まで担当しました。
+IBM p740 / p750環境で **200LPAR規模** のAIX基盤構築を担当。
 
-### NIM / TSM運用方式最適化（2008〜2010年）
+- メンバー2名の技術リード
+- LPAR環境構築・設定
+- 設計書作成
+- テスト仕様作成・テスト実施
+- 運用手順書作成
 
-NIM / TSMサーバーについて、従来運用から仮想化環境に適した方式への変更を提案し、実装・運用手順作成まで担当しました。
+### AIX / Storage / SAN基盤
+
+IBM Power Systems環境でAIX基盤とStorage / SANの設計・構築を担当。
+
+- s824 VIOS / VIOCによる **50LPAR環境構築**
+- Storage / SAN環境の設計・構築
+- バックアップデータ外部保管設計
+
+### Subversion / ジョブ基盤更改
+
+Subversionサーバー更改とSystemWalkerからHinemosへのジョブ移行を担当。
+
+- Subversion移行手順・データ移行スクリプト作成
+- スクリプト・ジョブの棚卸し
+- ジョブ移行の置換方針策定
+- 文字列置換スクリプト作成
+- バッチスクリプト修正
+- テストおよび結果整理
 
 ---
 
@@ -96,13 +128,9 @@ NIM / TSMサーバーについて、従来運用から仮想化環境に適し�
 
 AIX / PowerVM / VIOS / SAN / PowerHA を対象に、IaC・NIM・Promotion Pipeline・Evidence RAG・LLMを組み合わせ、AIX基盤エンジニアリングを **再現可能かつ学習可能なプロセス** へ変換する個人研究プロジェクトです。
 
-研究サイクルは、
-
 **仮説 → 設計 → 実装 → 実機検証 → Evidence → 評価 → 設計更新**
 
-を基本としています。
-
-単純にAIXをTerraformやAnsibleで操作することではなく、Power基盤全体の設計意図、AIXライフサイクル、リリース昇格、Evidence、LLMによる分析・学習を一つのエンジニアリングプロセスとして扱うことを目的としています。
+というサイクルを基本とし、単なるIaCによる構築自動化ではなく、Power基盤の設計意図、AIXライフサイクル、検証Evidence、リリース昇格、LLMによる分析・学習までを一つのエンジニアリングプロセスとして扱います。
 
 ---
 
@@ -117,7 +145,7 @@ IBM PowerVM / AIX環境からAWSへの移行を題材としたハイブリッド
 
 ### [aws-terraform-foundation](https://github.com/TomomasaSekino/aws-terraform-foundation)
 
-AWS基盤をTerraformで構成するためのIaC検証。
+AWS基盤をTerraformで構成するIaC検証。
 
 ### [aws-serverless-wordpress](https://github.com/TomomasaSekino/aws-serverless-wordpress)
 
@@ -137,8 +165,8 @@ ECS Fargate / Aurora Serverless v2を利用したWordPress基盤アーキテク�
 | Storage / SAN | Enterprise Storage / SAN / Cisco MDS |
 | SAP | SAP Basis / SLES / HANA / vSphere |
 | Cloud | AWS |
-| IaC | Terraform / Ansible |
-| Automation | Shell / PowerShell / Python |
+| IaC | Terraform |
+| Automation | Shell / PowerShell / Python / Ansible Tower / JP1 |
 | Configuration Management | Git / GitHub |
 
 ---
@@ -165,7 +193,7 @@ ECS Fargate / Aurora Serverless v2を利用したWordPress基盤アーキテク�
 
 ## Contact
 
-業務委託・技術案件に関するお問い合わせは、GitHubプロフィールよりお願いいたします。
+業務委託・技術案件に関するお問い合わせは、GitHub Issues からご連絡ください。
 
 ---
 
@@ -177,15 +205,15 @@ ECS Fargate / Aurora Serverless v2を利用したWordPress基盤アーキテク�
 **Enterprise Infrastructure Engineer**  
 **AIX / PowerVM / SAN / HA & DR / SAP / Hybrid Cloud / Legacy Modernization**
 
-Enterprise infrastructure engineer with more than 20 years of experience in designing, building, migrating, and improving mission-critical systems.
+Enterprise infrastructure engineer with more than 20 years of experience designing, building, operating, and improving enterprise infrastructure centered on AIX, Linux, SAN, HA and DR.
 
-My core expertise is IBM AIX and enterprise infrastructure, including PowerVM, SAN, PowerHA, SAP infrastructure, DR, AWS and Infrastructure as Code. My primary focus is modernization and migration of legacy mission-critical infrastructure while preserving existing design intent and operational knowledge.
+My primary focus is modernization and migration of mission-critical legacy infrastructure, spanning AIX / PowerVM, SAP infrastructure, disaster recovery, virtualization and hybrid cloud environments.
 
 ### Highlights
 
-- Designed and built AIX infrastructure at **up to 200 LPAR scale**
-- Reduced false-positive monitoring alerts by **approximately 98%** in SAP infrastructure operations
-- Automated a Subversion migration and reduced work by **approximately six person-months**
+- Built AIX infrastructure at **up to 200 LPAR scale** and served as technical lead
+- Operated and improved a **43-server SAP infrastructure** environment on SLES / vSphere
+- Designed, built and tested wide-area DR infrastructure using **Cisco MDS FCIP**
 
 ### Current Research
 
@@ -193,7 +221,7 @@ My core expertise is IBM AIX and enterprise infrastructure, including PowerVM, S
 
 ### Core Expertise
 
-AIX / PowerVM / VIOS / PowerHA / SAN / Storage / SAP / SLES / HANA / vSphere / AWS / Terraform / Ansible / Shell / PowerShell / Python
+AIX / PowerVM / VIOS / PowerHA / SAN / Storage / SAP / SLES / HANA / vSphere / AWS / Terraform / Shell / PowerShell / Python
 
 ### Certifications
 
@@ -204,5 +232,9 @@ AIX / PowerVM / VIOS / PowerHA / SAN / Storage / SAP / SLES / HANA / vSphere / A
 
 Available from **October 1, 2026**  
 Freelance / Full Remote / 4–5 days per week
+
+### Contact
+
+Please contact me through GitHub Issues.
 
 </details>
